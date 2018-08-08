@@ -3,12 +3,12 @@
     <div class="left l">
 		<div class="nav">
 			<ul>
-				<!-- <router-link v-for="(nav,key) in nav_tree" :key="key" active-class="active" tag="li">
-					<p><span>{{nav.name}}</span></p> -->
+				<router-link v-for="(nav,key) in nav_tree" :key="key" active-class="active" tag="li">
+					<p><span>{{nav.name}}</span></p>
 					<!-- <ol>
 						<router-link tag="li" active-class="active" v-for="(sub,key) in nav.sub_nav" :key="key" :to="sub.path">{{sub.title}}</router-link>
 					</ol> -->
-				<!-- </router-link> -->
+				</router-link>
 			</ul>
 		</div>
     </div>
