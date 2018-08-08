@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueQuillEditor from 'vue-quill-editor' // 富文本插件
 import VueAwesomeSwiper from 'vue-awesome-swiper' // vue-awesome-swiper
+import './assets/css/reset.css'
 
 import 'normalize.css/normalize.css'// A modern alternative to CSS resets
 
